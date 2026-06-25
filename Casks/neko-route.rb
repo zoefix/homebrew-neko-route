@@ -1,9 +1,9 @@
 cask "neko-route" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.9"
-  sha256 arm:   "c45fbdf6768a10c2a9f955973743646fa7ad5126d822dc375d5bd77e477339ca",
-         intel: "566794d497743ffca5c4cf49f40fef39204466d7d1b9698d52b2c7270a417acb"
+  version "0.2.0"
+  sha256 arm:   "8cae4e02b571f1859d6e32587dbe440905f945d37f7ff50d8d7cfeeff33a260c",
+         intel: "0abcf1e73164a5068a3465884d9f263c1de148250f83337b739b40dfe633056a"
 
   url "https://github.com/zoefix/neko-route/releases/download/v#{version}/Neko-Route_#{version}_macos_#{arch}.dmg"
   name "Neko Route"
